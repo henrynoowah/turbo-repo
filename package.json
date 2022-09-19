@@ -8,10 +8,8 @@
   ],
   "scripts": {
     "build": "turbo run build",
-    "build:docs": "turbo run build --scope=docs",
     "dev": "turbo run dev --parallel",
-    "dev:docs": "turbo run dev --parallel --scope=docs",
-    "dev:web": "turbo run dev --parallel --scope=web",
+    "start": "turbo run dev --parallel",
     "lint": "turbo run lint",
     "format": "prettier --write \"**/*.{ts,tsx,md}\""
   },
